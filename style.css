@@ -5,6 +5,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+img {
+	max-width: 100%;
+}
+
 .contenitore{
     max-width: 1000px;
     margin: 0 auto;
@@ -48,21 +52,19 @@ header{
 }
 
 .card.grey{
-    background-color: grey;
+    background-color: rgb(246, 246, 246);
 }
 
 .main{
     min-height: 300px;
-    background-color: cyan;
     padding: 20px;
-    flex-basis: 600px;
+    flex-basis: 65%;
 }
 
 .aside{
     min-height: 300px;
-    background-color: rosybrown;
     padding: 20px;
-    flex-grow: 1;
+    flex-basis: 35%;
 }
 
 
@@ -161,4 +163,13 @@ ul li{
     background-color: rgb(35, 39, 42);
     border-color: rgb(35, 39, 42);
     color: white;
+}
+
+aside > h1{
+    font-size: 40px;
+}
+
+aside > p{
+    font-size: 20px;
+    padding-top: 10px;
 }
