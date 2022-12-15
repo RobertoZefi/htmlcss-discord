@@ -110,6 +110,13 @@ header{
 .col-foot{
     background-color: palevioletred;
     padding: 5px;
+} 
+
+.col-grande2{
+    min-height: 700px;
+    padding: 20px;
+    flex-basis: 900px;
+    text-align: center;
 }
 
 
@@ -165,11 +172,29 @@ ul li{
     color: white;
 }
 
-aside > h1{
+.aside > h1{
     font-size: 40px;
 }
 
-aside > p{
+.aside > p{
     font-size: 20px;
     padding-top: 10px;
+}
+
+
+.last-card{
+    padding-top: 10px;
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+}
+
+.button.viola{
+    background-color: rgb(114, 137, 218);
+    border-color: rgb(114, 137, 218);
+    color: white;
+}
+
+.aside > h2{
+    font-size: 30px;
+    padding-bottom: 30px;
 }
