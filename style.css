@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .contenitore{
@@ -11,25 +12,21 @@
 }
 
 header{
-    background-color: aqua;
+    background-color: rgb(37, 94, 233);
     min-height: 80px;
 }
 
 .row{
     display: flex;
-    background-color: orange;
     justify-content: space-between;
-}
-
-
-.col{
-    border: 2px solid black;
-    padding: 15px;
+    align-items: center;
 }
 
 
 .section{
-    background-color: blue;
+    background-image: url(img/jumbo.png);
+    background-size: 2543px 560px;
+    
 }
 
 .section > .contenitore{
@@ -39,10 +36,10 @@ header{
 }
 
 .col-grande{
-    min-height: 250px;
-    background-color: pink;
+    min-height: 400px;
     padding: 20px;
     flex-basis: 700px;
+    text-align: center;
 }
 
 .card > .contenitore{
@@ -111,4 +108,57 @@ header{
 .col-foot{
     background-color: palevioletred;
     padding: 5px;
+}
+
+
+/**************************/
+
+ul li{
+    list-style-type: none;
+}
+
+.nav{
+    display: flex;
+    color: white;
+}
+
+.nav > li{
+    padding: 15px;
+}
+
+.accedi{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.titolo{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+.paragrafo{
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+
+.button{
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.button.white{
+    border-color: white;
+    background-color: white;
+}
+
+.button.black{
+    background-color: rgb(35, 39, 42);
+    border-color: rgb(35, 39, 42);
+    color: white;
 }
