@@ -198,3 +198,8 @@ ul li{
     font-size: 30px;
     padding-bottom: 30px;
 }
+
+.elenco-foot > li{
+    padding-bottom: 10px;
+    color: white;
+}
